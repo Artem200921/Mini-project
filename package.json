@@ -1,15 +1,16 @@
 {
-  "name": "parcel-project-template",
+  "name": "Mini-project",
   "version": "2.0.0",
   "description": "",
   "homepage": "https://goitacademy.github.io/parcel-project-template",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /parcel-project-template/",
+    "server": "json-server db.json"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/Artem200921/Mini-project"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
@@ -18,7 +19,9 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "handlebars": "^4.7.8",
+    "modern-normalize": "^1.1.0",
+    "parcel-transformer-hbs": "^1.0.4"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
